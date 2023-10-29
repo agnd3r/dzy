@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'pix';
+    src: url(resource/font/PixelOperator.ttf);
+    size-adjust: 115%;
+}
+
+@font-face {
+    font-family: 'pix';
+    src: url(resource/font/PixelOperatorHB.ttf);
+    size-adjust: 115%;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'pix m';
+    src: url(resource/font/PixelOperatorMono.ttf);
+    size-adjust: 115%;
+}
+
+@font-face {
+    font-family: 'pix m';
+    src: url(resource/font/PixelOperatorMonoHB.ttf);
+    size-adjust: 115%;
+    font-weight: 800;
+}
+
+body {
+    font-family: 'pix';
+}
+
+/* !base */
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 6rem;
+    right: 1048px;
+    display: grid;
+    z-index: 1;
+    font-family: 'pix m';
+}
+
+main {
+    background-color: #efefef;
+    max-width: 700px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    position: absolute;
+    top: 6rem;
+    right: 300px;
+    padding: 1rem;
+    border-radius: 6px;
+}
